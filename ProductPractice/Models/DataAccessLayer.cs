@@ -39,7 +39,7 @@ public class DataAccessLayer
             {
                 Product p = new Product();
                 
-                p.ProductID = Convert.ToInt32(dr["ProductID"]);
+                p.ProductId = Convert.ToInt32(dr["ProductID"]);
                 p.ProductName = dr["ProductName"].ToString();
                 p.Category = dr["Category"].ToString();
                 p.Price = Convert.ToDecimal(dr["Price"]);

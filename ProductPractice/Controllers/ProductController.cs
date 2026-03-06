@@ -17,6 +17,6 @@ public class ProductController : Controller
     {
 
         var result = _dl.FetchAll();
-        return View();
+        return View(result);
     }
 }
